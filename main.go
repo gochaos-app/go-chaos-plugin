@@ -3,7 +3,7 @@ package main
 
 import (
   "fmt"
-  "./addon"
+  "github.com/gochaos-app/go-chaos-plugin/addon"
 )
 
 
