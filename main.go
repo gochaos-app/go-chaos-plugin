@@ -3,12 +3,11 @@ package main
 
 import (
   "fmt"
-  "github.com/gochaos-app/go-chaos-plugin/addon"
 )
 
 
-func ChaosFunc(c addon.ChaosConfig) {
+func ChaosFunc(region string, service string, project string, namespace string, tag string, chaos string, number int) {
 	fmt.Println("Hello from Chaos")
-	fmt.Println(c.Region)
+	fmt.Println(region)
 }
 
