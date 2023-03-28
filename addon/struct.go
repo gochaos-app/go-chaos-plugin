@@ -1,4 +1,4 @@
-package modules
+package addon
 
 type ChaosConfig struct {
 	Region    string
